@@ -1,0 +1,36 @@
+iframe{
+    border-bottom-width: 10px;
+border-bottom-color: black;
+border-top-color: black;
+border-top-width: 10px;
+width:580px;
+height:320px;
+
+}
+p{
+font-family:cursive;
+     font-size: 20px;
+     font-weight: bold;
+}
+h1{
+    color: red;
+ font-style: italic;
+}
+#main { 
+    width:1400px; height:700px; background-color:#6666ff
+}
+#head {
+    width:1400px; height:100px;  background-color:grey
+}
+#body1 {
+    display: none;
+   
+    width:1400px; height:600px;background-image:url('http://i367.photobucket.com/albums/oo114/deanna_mullins01/balloons.gif') 
+}
+#b1{
+    width:400px;height: 600px;float: left
+}
+#b2{width:800px;height: 600px;float:left
+}
+#b3{width:200px;height:600px;float:left
+}

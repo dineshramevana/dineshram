@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>birthdayCard</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="ncss.css">
+   <script type="text/JavaScript">
+    function fun1() {
+        //document.write("happy birthday");
+       
+
+        document.getElementById('display').innerHTML = 
+                    document.getElementById("name1").value;
+                 document.getElementById("body1").style.display = "block";
+    }
+  </script>     
+    </head>
+    <body ><div id="main">
+        <div id="head">
+           <form>
+    <p>Enter a Name</p>
+    <input type="text" name="me" id="name1" required>
+  
+  </form>
+  <input type="button" value="submit" onclick="fun1()">  
+        </div>
+           <div id="body1">
+               <div id="b1"></div>
+                <div id="b2">
+                    <h1> Happy Birthday <span id='display'></span>!!!!</h1>
+                        <iframe src="https://www.youtube.com/embed/_z-1fTlSDF0?autoplay=1"></iframe>
+                        <p> On your special day,<br/>
+                 I wish you good luck.I hope this wonderful day will fill<br/> up your heart with joy and blessings.
+              Have a fantastic<br/>birthday,celebrate the happiness on every day of your life. <br/>Happy Birthday!!
+             </p>
+                </div>
+                 <div id="b3"></div>
+             
+          
+
+               
+        </div> 
+            
+        </div>
+    </body>
+</html>
